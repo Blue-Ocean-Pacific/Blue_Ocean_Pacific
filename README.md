@@ -3,13 +3,13 @@
 
 
 ## Made by the Blue Ocean Pacific team:
-Tristan Johnson - Project Manager - <https://github.com/Sithistorian>
-Tarrin Neal - Technical Stack Manager - <https://github.com/tarrinneal>
-Austin Elwell - User Interface Manager - <https://github.com/austinelwell99>
-Austin Testut - Full Stack Engineer - <https://github.com/austintestut>
-Chandler Ocapan - Full Stack Engineer - <https://github.com/GeekBoyChan>
-Lara Davies - Full Stack Engineer - <https://github.com/larakhdavies>
-Samuel Cho - Full Stack Engineer - <https://github.com/SamuelCho-ubf>
+Tristan Johnson - Project Manager - <https://github.com/Sithistorian><br>
+Tarrin Neal - Technical Stack Manager - <https://github.com/tarrinneal><br>
+Austin Elwell - User Interface Manager - <https://github.com/austinelwell99><br>
+Austin Testut - Full Stack Engineer - <https://github.com/austintestut><br>
+Chandler Ocapan - Full Stack Engineer - <https://github.com/GeekBoyChan><br>
+Lara Davies - Full Stack Engineer - <https://github.com/larakhdavies><br>
+Samuel Cho - Full Stack Engineer - <https://github.com/SamuelCho-ubf><br>
 
 
 ## Purpose
@@ -19,7 +19,7 @@ Pacific Micropohone allows users to create a personalized collection of acting s
 Pacific Microphone uses Google Authentication, allowing users to easily sign in to a personal account.  Once signed in, there are there are three main tools available for use:  Script Analyzer, Voice Analyzer, and Live Practice. New users will be greeted with an excerpt from Shakespeare's Hamlet to for a great example of the tools and features of the application.  However, they are free to add new scripts to their profile using the left side panel.
 
 ### Adding a New Script
-Click on the "Add New Script" button in the left side panel, under "Your Scripts" to add a new script to your collection.  In the Script Information Form, add the title, author, and body of the script.  For analysis, the script needs to be in the following format:
+Click on the "Add New Script" button in the left side panel, under "Your Scripts" to add a new script to your collection.  In the Script Information Form, add the title, author, and body of the script.  For analysis, the script should be in the following format:
 
     SPEAKER
     Pacific Microphone has helped me hone my acting chops!
@@ -55,7 +55,7 @@ In the Live Practice tool, select a script from the side panel to practice with 
 To run Pacific Microphone locally:
 1. Fork and Clone the repo <https://github.com/Blue-Ocean-Pacific/Blue_Ocean_Pacific>
 2. Install sox
-    - `sudo apt install sox` and `sudo apt-get install libsox-fmt-mp3` for Linux
+    - `sudo apt install sox` and `sudo apt-get install libsox-fmt-mp3` for Linux or WSL
     - Use homebrew for MacOS
 3. Set up file named '.env' in the root folder with the following variables:
     - DBTOKEN
@@ -72,6 +72,7 @@ To run Pacific Microphone locally:
     - COOKIE_KEY
       - For example:
         - COOKIE_KEY=bestcookiedecryptionkeyever1337
+    - The URLs and associated keys can be created with a free account at <https://www.ibm.com/watson/developer> and <https://webempath.net>
     - Note that this app is set up for Google OAuth 2.0, so a Google Client ID and Google Client Secret code will be required to run it in its normal state.  To avoid this and run the app without authentication (as of 4/11/2021):
       - server/index.js:
         - Comment out lines 5, 6, 8, 29-36, 55-63
