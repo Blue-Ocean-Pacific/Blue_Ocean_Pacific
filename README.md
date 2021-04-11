@@ -3,13 +3,13 @@
 
 
 ## Made by the Blue Ocean Pacific team:
-Tristan Johnson - Project Manager --------- <https://github.com/Sithistorian><br>
-Tarrin Neal ----- Technical Stack Manager - <https://github.com/tarrinneal><br>
-Austin Elwell --- User Interface Manager -- <https://github.com/austinelwell99><br>
-Austin Testut --- Full Stack Engineer ----- <https://github.com/austintestut><br>
-Chandler Ocapan - Full Stack Engineer ----- <https://github.com/GeekBoyChan><br>
-Lara Davies ----- Full Stack Engineer ----- <https://github.com/larakhdavies><br>
-Samuel Cho ------ Full Stack Engineer ----- <https://github.com/SamuelCho-ubf><br>
+Tristan Johnson - Project Manager - <https://github.com/Sithistorian><br>
+Tarrin Neal - Technical Stack Manager - <https://github.com/tarrinneal><br>
+Austin Elwell - User Interface Manager - <https://github.com/austinelwell99><br>
+Austin Testut - Full Stack Engineer - <https://github.com/austintestut><br>
+Chandler Ocapan - Full Stack Engineer - <https://github.com/GeekBoyChan><br>
+Lara Davies - Full Stack Engineer - <https://github.com/larakhdavies><br>
+Samuel Cho - Full Stack Engineer - <https://github.com/SamuelCho-ubf><br>
 
 
 ## Purpose
